@@ -1403,8 +1403,12 @@ input[type="submit"] {
 }
 .label-box > input[type="number"] {
   padding: 12px;
+  width: 48px;
 }
-
+.place-order {
+  max-width: 500px;
+  margin: auto;
+}
 .chef.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
