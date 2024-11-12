@@ -1,0 +1,1555 @@
+/* _Primitive_ */
+:root {
+  /* Value */
+  /* color */
+  --colors-nutral-black-black-100: #cccccc;
+  --colors-nutral-black-black-200: #b3b3b3;
+  --colors-nutral-black-black-25: #f2f2f2;
+  --colors-nutral-black-black-300: #999999;
+  --colors-nutral-black-black-400: #808080;
+  --colors-nutral-black-black-50: #e6e6e6;
+  --colors-nutral-black-black-500: #666666;
+  --colors-nutral-black-black-600: #4d4d4d;
+  --colors-nutral-black-black-700: #333333;
+  --colors-nutral-black-black-800: #1a1a1a;
+  --colors-nutral-black-black-900-main: #000000;
+  --colors-nutral-gray-soft-gray-soft-100: #e0e2e7;
+  --colors-nutral-gray-soft-gray-soft-200: #c2c6ce;
+  --colors-nutral-gray-soft-gray-soft-25: #fafafa;
+  --colors-nutral-gray-soft-gray-soft-300: #a3a9b6;
+  --colors-nutral-gray-soft-gray-soft-400: #858d9d;
+  --colors-nutral-gray-soft-gray-soft-50: #f0f1f3;
+  --colors-nutral-gray-soft-gray-soft-500-main: #667085;
+  --colors-nutral-gray-soft-gray-soft-600: #59647a;
+  --colors-nutral-gray-soft-gray-soft-700: #525d73;
+  --colors-nutral-gray-soft-gray-soft-800: #4a556c;
+  --colors-nutral-gray-soft-gray-soft-900: #404a60;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-100: #8791b7;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-200: #6a749c;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-25: #bcc3e3;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-300: #475175;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-400: #384162;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-50: #9da6cb;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-500-main: #2f3757;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-600: #242a46;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-700: #1b2037;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-800: #151a2d;
+  --colors-nutral-gray-strong-dark-mode-gray-strong-900: #0e1223;
+  --colors-nutral-white-whitemain: #ffffff;
+  --colors-brand-primary-primary-100: #b3d5c0;
+  --colors-brand-primary-primary-200: #99c6ab;
+  --colors-brand-primary-primary-25: #e6f1ea;
+  --colors-brand-primary-primary-300: #66aa81;
+  --colors-brand-primary-primary-400: #338d57;
+  --colors-brand-primary-primary-50: #cce3d5;
+  --colors-brand-primary-primary-500-main: #00712d;
+  --colors-brand-primary-primary-600: #005a24;
+  --colors-brand-primary-primary-700: #00441b;
+  --colors-brand-primary-primary-800: #002d12;
+  --colors-brand-primary-primary-900: #001709;
+  --colors-brand-secondary-secondary-100: #fffef8;
+  --colors-brand-secondary-secondary-200: #fffdf5;
+  --colors-brand-secondary-secondary-25: #fffffd;
+  --colors-brand-secondary-secondary-300: #fffdf0;
+  --colors-brand-secondary-secondary-400: #fffceb;
+  --colors-brand-secondary-secondary-50: #fffefa;
+  --colors-brand-secondary-secondary-500-main: #fffbe6;
+  --colors-brand-secondary-secondary-600: #ccc9b8;
+  --colors-brand-secondary-secondary-700: #99978a;
+  --colors-brand-secondary-secondary-800: #66645c;
+  --colors-brand-secondary-secondary-900: #33322e;
+  --colors-brand-teritary-tertiary-100: #ffdeb3;
+  --colors-brand-teritary-tertiary-200: #ffd399;
+  --colors-brand-teritary-tertiary-25: #fff4e6;
+  --colors-brand-teritary-tertiary-300: #ffbd66;
+  --colors-brand-teritary-tertiary-400: #ffa733;
+  --colors-brand-teritary-tertiary-50: #ffe9cc;
+  --colors-brand-teritary-tertiary-500-main: #ff9100;
+  --colors-brand-teritary-tertiary-600: #cc7400;
+  --colors-brand-teritary-tertiary-700: #995700;
+  --colors-brand-teritary-tertiary-800: #663a00;
+  --colors-brand-teritary-tertiary-900: #331d00;
+  --colors-feedback-negative-negative-100: #ffe2e0;
+  --colors-feedback-negative-negative-200: #ffc6c2;
+  --colors-feedback-negative-negative-25: #fff8f7;
+  --colors-feedback-negative-negative-300: #ffa9a3;
+  --colors-feedback-negative-negative-400: #ff8d85;
+  --colors-feedback-negative-negative-50: #fff1f0;
+  --colors-feedback-negative-negative-500-main: #ff554a;
+  --colors-feedback-negative-negative-600: #ea483d;
+  --colors-feedback-negative-negative-700: #d7392e;
+  --colors-feedback-negative-negative-800: #c8271c;
+  --colors-feedback-negative-negative-900: #b71409;
+  --colors-feedback-positive-positive-100: #d3f4e0;
+  --colors-feedback-positive-positive-200: #a7e9c1;
+  --colors-feedback-positive-positive-25: #f4fcf7;
+  --colors-feedback-positive-positive-300: #7bdfa3;
+  --colors-feedback-positive-positive-400: #4fd484;
+  --colors-feedback-positive-positive-50: #e9faf0;
+  --colors-feedback-positive-positive-500-main: #23c965;
+  --colors-feedback-positive-positive-600: #08b94e;
+  --colors-feedback-positive-positive-700: #02983e;
+  --colors-feedback-positive-positive-800: #00732e;
+  --colors-feedback-positive-positive-900: #00481d;
+  --colors-feedback-warning-warning-100: #fff3db;
+  --colors-feedback-warning-warning-200: #ffe6b7;
+  --colors-feedback-warning-warning-25: #fffcf6;
+  --colors-feedback-warning-warning-300: #ffda92;
+  --colors-feedback-warning-warning-400: #ffcd6e;
+  --colors-feedback-warning-warning-50: #fff9ed;
+  --colors-feedback-warning-warning-500-main: #ffc14a;
+  --colors-feedback-warning-warning-600: #eba622;
+  --colors-feedback-warning-warning-700: #d18a02;
+  --colors-feedback-warning-warning-800: #9f6800;
+  --colors-feedback-warning-warning-900: #5a3b00;
+  /* number */
+  --typography-height-2xs: 1.25rem;
+  --typography-height-xs: 1.5rem;
+  --typography-height-sm: 1.75rem;
+  --typography-height-md: 2.125rem;
+  --typography-height-lg: 3.25rem;
+  --typography-height-lg-3x: 4rem;
+  --typography-height-lg-4x: 5.25rem;
+  --typography-height-lg-5x: 6.75rem;
+  --typography-height-lg-6x: 8.25rem;
+  --typography-size-xs: 0.875rem;
+  --typography-size-sm: 1rem;
+  --typography-size-md: 1.125rem;
+  --typography-size-lg: 1.25rem;
+  --typography-size-lg-2x: 2.25rem;
+  --typography-size-lg-3x: 3rem;
+  --typography-size-lg-4x: 4rem;
+  --typography-size-lg-5x: 4.5rem;
+  --typography-size-lg-6x: 6rem;
+  --typography-weight-light: 18.75rem;
+  --typography-weight-regular: 25rem;
+  --typography-weight-medium: 31.25rem;
+  --typography-weight-semi-bold: 37.5rem;
+  --values-minus--24px--18pt: -1.5rem;
+  --values-minus-16px--12pt: -1rem;
+  --values-minus--10px--7․5pt: -0.625rem;
+  --values-minus-one: -0.0625rem;
+  --values-null: 0rem;
+  --values-0․5px-0․375pt: 0.03125rem;
+  --values-1px-0․75pt: 0.0625rem;
+  --values-2px-1․5pt: 0.125rem;
+  --values-4px-3pt: 0.25rem;
+  --values-6px-4․5pt: 0.375rem;
+  --values-8px-6pt: 0.5rem;
+  --values-10px-7․5pt: 0.625rem;
+  --values-12px-9pt: 0.75rem;
+  --values-14px-10․5pt: 0.875rem;
+  --values-16px-12pt: 1rem;
+  --values-18px-13․5pt: 1.125rem;
+  --values-20px-15pt: 1.25rem;
+  --values-22px-16․5pt: 1.375rem;
+  --values-24px-18pt: 1.5rem;
+  --values-26px-19․5pt: 1.625rem;
+  --values-28px-21pt: 1.75rem;
+  --values-32px-24pt: 2rem;
+  --values-36px-27pt: 2.25rem;
+  --values-40px-30pt: 2.5rem;
+  --values-44px-33pt: 2.75rem;
+  --values-48px-36pt: 3rem;
+  --values-52px-39pt: 3.25rem;
+  --values-56px-42pt: 3.5rem;
+  --values-60px-45pt: 3.75rem;
+  --values-64px-48pt: 4rem;
+  --values-68px-51pt: 4.25rem;
+  --values-72px-54pt: 4.5rem;
+  --values-76px-57pt: 4.75rem;
+  --values-80px-60pt: 5rem;
+  --values-84px-63pt: 5.25rem;
+  --values-88px-66pt: 5.5rem;
+  --values-92px-69pt: 5.75rem;
+  --values-96px-72pt: 6rem;
+  --values-128px-96pt: 8rem;
+  --values-256px-192pt: 16rem;
+  --values-512px-384pt: 32rem;
+  --values-1024px-768pt: 64rem;
+  --values-1200px-900pt: 75rem;
+  --values-1600px-1200pt: 100rem;
+  --values-infinity: 624.9375rem;
+  /* radius */
+  --radius-none: var(--values-null);
+  --radius-xsm: var(--values-1px-0․75pt);
+  --radius-sm: var(--values-2px-1․5pt);
+  --radius-sm-2x: var(--values-4px-3pt);
+  --radius-sm-3x: var(--values-6px-4․5pt);
+  --radius-sm-4x: var(--values-8px-6pt);
+  --radius-md: var(--values-12px-9pt);
+  --radius-md-2x: var(--values-16px-12pt);
+  --radius-md-3x: var(--values-18px-13․5pt);
+  --radius-md-lg: var(--values-20px-15pt);
+  --radius-md-lg-2x: var(--values-24px-18pt);
+  --radius-md-lg-3x: var(--values-32px-24pt);
+  --radius-infinity: var(--values-infinity);
+  /* string */
+  --typography-typeface-change-font-here-body: "inter";
+  --typography-typeface-change-font-here-display: "metal";
+  --typography-typeface-change-font-here-heading: "metal";
+  /* shadow */
+  /* Effect styles */
+  --shadow--background--xsm: 0px 2px 2px rgba(0, 0, 0, 0.16);
+  --shadow--background--sm: 0px 8px 10px rgba(0, 0, 0, 0.06);
+  --shadow--background--md: 0px 16px 18px rgba(0, 0, 0, 0.06);
+  --shadow--background--lg: 0px 16px 18px rgba(0, 0, 0, 0.06);
+  --shadow--background--xlg: 0px 32px 36px rgba(0, 0, 0, 0.06);
+  --shadow--background--xlg-3x: 0px 64px 64px rgba(0, 0, 0, 0.06);
+  --shadow--button--xsm: 0px 2px 2px rgba(0, 0, 0, 0.24);
+  --shadow--button--sm: 0px 8px 10px rgba(0, 0, 0, 0.06);
+  --shadow--button--md: 0px 16px 18px rgba(0, 0, 0, 0.06);
+  --shadow--button--lg: 0px 16px 18px rgba(0, 0, 0, 0.06);
+  --shadow--button--xlg: 0px 32px 36px rgba(0, 0, 0, 0.06);
+  --shadow--badge---small-sm: 0px 2px 2px rgba(0, 0, 0, 0.16);
+
+  /* mode */
+
+  /* Light */
+  /* color */
+  --background-fill-background-fill-central: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --background-fill-background-fill-heart: var(
+    --colors-brand-secondary-secondary-600
+  );
+  --background-fill-background-fill-inner: var(
+    --colors-brand-secondary-secondary-400
+  );
+  --background-fill-background-fill-middle: var(
+    --colors-brand-secondary-secondary-200
+  );
+  --background-fill-background-fill-outermost: var(
+    --colors-brand-secondary-secondary-100
+  );
+  --background-fill-background-fill-surface: var(
+    --colors-brand-secondary-secondary-50
+  );
+  --background-stroke-background-stroke-central: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --background-stroke-background-stroke-heart: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --background-stroke-background-stroke-inner: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --background-stroke-background-stroke-middle: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --background-stroke-background-stroke-outermost: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --background-stroke-background-stroke-surface: var(
+    --colors-nutral-gray-soft-gray-soft-100
+  );
+  --component-fill-component-reversed: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --component-fill-component-fill-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --component-fill-component-fill-dark-soft: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --component-fill-component-fill-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-25
+  );
+  --component-fill-component-fill-light: var(--colors-nutral-white-whitemain);
+  --component-fill-component-fill-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-fill-component-fill-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --component-fill-component-fill-negative-soft: var(
+    --colors-feedback-negative-negative-25
+  );
+  --component-fill-component-fill-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --component-fill-component-fill-positive-sfot: var(
+    --colors-feedback-positive-positive-25
+  );
+  --component-fill-component-fill-primary: var(
+    --colors-brand-primary-primary-500-main
+  );
+  --component-fill-component-fill-primary-soft: var(
+    --colors-brand-primary-primary-25
+  );
+  --component-fill-component-fill-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --component-fill-component-fill-secondary-soft: var(
+    --colors-brand-secondary-secondary-25
+  );
+  --component-fill-component-fill-tertiary: var(
+    --colors-brand-teritary-tertiary-500-main
+  );
+  --component-fill-component-fill-tertiary-soft: var(
+    --colors-brand-teritary-tertiary-25
+  );
+  --component-fill-component-fill-warning: var(
+    --colors-feedback-warning-warning-500-main
+  );
+  --component-fill-component-fill-warning-soft: var(
+    --colors-feedback-warning-warning-25
+  );
+  --component-stroke-component-stroke-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --component-stroke-component-stroke-dark-soft: var(
+    --colors-nutral-gray-soft-gray-soft-100
+  );
+  --component-stroke-component-stroke-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-50
+  );
+  --component-stroke-component-stroke-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-stroke-component-stroke-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --component-stroke-component-stroke-negative-soft: var(
+    --colors-feedback-negative-negative-100
+  );
+  --component-stroke-component-stroke-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --component-stroke-component-stroke-positive-soft: var(
+    --colors-feedback-positive-positive-100
+  );
+  --component-stroke-component-stroke-primary: var(
+    --colors-brand-primary-primary-500-main
+  );
+  --component-stroke-component-stroke-primary-soft: var(
+    --colors-brand-primary-primary-100
+  );
+  --component-stroke-component-stroke-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --component-stroke-component-stroke-secondary-soft: var(
+    --colors-brand-secondary-secondary-100
+  );
+  --component-stroke-component-stroke-tertiary: var(
+    --colors-brand-teritary-tertiary-500-main
+  );
+  --component-stroke-component-stroke-tertiary-soft: var(
+    --colors-brand-teritary-tertiary-100
+  );
+  --component-stroke-component-stroke-warning: var(
+    --colors-feedback-warning-warning-500-main
+  );
+  --component-stroke-component-stroke-warning-soft: var(
+    --colors-feedback-warning-warning-100
+  );
+  --component-text-component-text-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-700
+  );
+  --component-text-component-text-dark-hover: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --component-text-component-text-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-50
+  );
+  --component-text-component-text-gray: var(
+    --colors-nutral-gray-soft-gray-soft-500-main
+  );
+  --component-text-component-text-gray-hover: var(
+    --colors-nutral-gray-soft-gray-soft-600
+  );
+  --component-text-component-text-light: var(--colors-nutral-white-whitemain);
+  --component-text-component-text-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-text-component-text-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --component-text-component-text-negative-hover: var(
+    --colors-feedback-negative-negative-600
+  );
+  --component-text-component-text-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --component-text-component-text-positive-hover: var(
+    --colors-feedback-positive-positive-600
+  );
+  --component-text-component-text-primary: var(
+    --colors-brand-primary-primary-500-main
+  );
+  --component-text-component-text-primary-hover: var(
+    --colors-brand-primary-primary-600
+  );
+  --component-text-component-text-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --component-text-component-text-secondary-hover: var(
+    --colors-brand-secondary-secondary-600
+  );
+  --component-text-component-text-tertiary: var(
+    --colors-brand-teritary-tertiary-500-main
+  );
+  --component-text-component-text-tertiary-hover: var(
+    --colors-brand-teritary-tertiary-600
+  );
+  --component-text-component-text-warning: var(
+    --colors-feedback-warning-warning-500-main
+  );
+  --component-text-component-text-warning-hover: var(
+    --colors-feedback-warning-warning-600
+  );
+  --component-hover-component-hover-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-hover-component-hover-dark-soft: var(
+    --colors-nutral-gray-soft-gray-soft-100
+  );
+  --component-hover-component-hover-gray: var(
+    --colors-nutral-gray-soft-gray-soft-50
+  );
+  --component-hover-component-hover-light: var(--colors-nutral-white-whitemain);
+  --component-hover-component-hover-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-hover-component-hover-negative: var(
+    --colors-feedback-negative-negative-600
+  );
+  --component-hover-component-hover-negative-light: var(
+    --colors-feedback-negative-negative-400
+  );
+  --component-hover-component-hover-negative-soft: var(
+    --colors-feedback-negative-negative-50
+  );
+  --component-hover-component-hover-positive: var(
+    --colors-feedback-positive-positive-600
+  );
+  --component-hover-component-hover-positive-light: var(
+    --colors-feedback-positive-positive-400
+  );
+  --component-hover-component-hover-positive-soft: var(
+    --colors-feedback-positive-positive-50
+  );
+  --component-hover-component-hover-primary: var(
+    --colors-brand-primary-primary-600
+  );
+  --component-hover-component-hover-primary-light: var(
+    --colors-brand-primary-primary-400
+  );
+  --component-hover-component-hover-primary-soft: var(
+    --colors-brand-primary-primary-50
+  );
+  --component-hover-component-hover-secondary: var(
+    --colors-brand-secondary-secondary-600
+  );
+  --component-hover-component-hover-secondary-light: var(
+    --colors-brand-secondary-secondary-400
+  );
+  --component-hover-component-hover-secondary-soft: var(
+    --colors-brand-secondary-secondary-50
+  );
+  --component-hover-component-hover-tertiary: var(
+    --colors-brand-teritary-tertiary-600
+  );
+  --component-hover-component-hover-tertiary-light: var(
+    --colors-brand-teritary-tertiary-400
+  );
+  --component-hover-component-hover-tertiary-soft: var(
+    --colors-brand-teritary-tertiary-50
+  );
+  --component-hover-component-hover-warning: var(
+    --colors-feedback-warning-warning-600
+  );
+  --component-hover-component-hover-warning-light: var(
+    --colors-feedback-warning-warning-400
+  );
+  --component-hover-component-hover-warning-soft: var(
+    --colors-feedback-warning-warning-50
+  );
+  --icon-default-icon-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --icon-default-icon-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-50
+  );
+  --icon-default-icon-gray: var(--colors-nutral-gray-soft-gray-soft-500-main);
+  --icon-default-icon-light-fixed: var(--colors-nutral-white-whitemain);
+  --icon-default-icon-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --icon-default-icon-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --icon-default-icon-primary: var(--colors-brand-primary-primary-500-main);
+  --icon-default-icon-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --icon-default-icon-tertiary: var(--colors-brand-teritary-tertiary-500-main);
+  --icon-default-icon-warning: var(--colors-feedback-warning-warning-500-main);
+  --icon-hover-icon-hover-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --icon-hover-icon-hover-gray: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --icon-hover-icon-hover-negative: var(
+    --colors-feedback-negative-negative-600
+  );
+  --icon-hover-icon-hover-positive: var(
+    --colors-feedback-positive-positive-600
+  );
+  --icon-hover-icon-hover-primary: var(--colors-brand-primary-primary-600);
+  --icon-hover-icon-hover-secondary: var(
+    --colors-brand-secondary-secondary-600
+  );
+  --icon-hover-icon-hover-tertiary: var(--colors-brand-teritary-tertiary-600);
+  --icon-hover-icon-hover-warning: var(--colors-feedback-warning-warning-600);
+  --typography-body: var(--colors-nutral-gray-strong-dark-mode-gray-strong-900);
+  --typography-body-light: var(--colors-nutral-white-whitemain);
+  --typography-body-soft: var(--colors-nutral-gray-soft-gray-soft-500-main);
+  --typography-caption: var(--colors-brand-primary-primary-900);
+  --typography-caption-light: var(--colors-nutral-white-whitemain);
+  --typography-caption-soft: var(--colors-nutral-gray-soft-gray-soft-500-main);
+  --typography-display: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --typography-display-light: var(--colors-nutral-white-whitemain);
+  --typography-heading: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --typography-heading-light: var(--colors-nutral-white-whitemain);
+  /* Dark */
+  /* color */
+  /**
+  --background-fill-background-fill-central: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-500-main
+  );
+  --background-fill-background-fill-heart: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --background-fill-background-fill-inner: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --background-fill-background-fill-middle: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-700
+  );
+  --background-fill-background-fill-outermost: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --background-fill-background-fill-surface: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --background-stroke-background-stroke-central: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --background-stroke-background-stroke-heart: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-300
+  );
+  --background-stroke-background-stroke-inner: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-500-main
+  );
+  --background-stroke-background-stroke-middle: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --background-stroke-background-stroke-outermost: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --background-stroke-background-stroke-surface: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-fill-component-reversed: var(--colors-nutral-white-whitemain);
+  --component-fill-component-fill-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-500-main
+  );
+  --component-fill-component-fill-dark-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-fill-component-fill-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-700
+  );
+  --component-fill-component-fill-light: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-800
+  );
+  --component-fill-component-fill-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-fill-component-fill-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --component-fill-component-fill-negative-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-fill-component-fill-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --component-fill-component-fill-positive-sfot: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-fill-component-fill-primary: var(
+    --colors-brand-primary-primary-500-main
+  );
+  --component-fill-component-fill-primary-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-fill-component-fill-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --component-fill-component-fill-secondary-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-fill-component-fill-tertiary: var(
+    --colors-brand-teritary-tertiary-500-main
+  );
+  --component-fill-component-fill-tertiary-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-fill-component-fill-warning: var(
+    --colors-feedback-warning-warning-500-main
+  );
+  --component-fill-component-fill-warning-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-stroke-component-stroke-dark: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --component-stroke-component-stroke-dark-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --component-stroke-component-stroke-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-stroke-component-stroke-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-stroke-component-stroke-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --component-stroke-component-stroke-negative-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-stroke-component-stroke-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --component-stroke-component-stroke-positive-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-stroke-component-stroke-primary: var(
+    --colors-brand-primary-primary-500-main
+  );
+  --component-stroke-component-stroke-primary-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-stroke-component-stroke-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --component-stroke-component-stroke-secondary-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-stroke-component-stroke-tertiary: var(
+    --colors-brand-teritary-tertiary-500-main
+  );
+  --component-stroke-component-stroke-tertiary-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-stroke-component-stroke-warning: var(
+    --colors-feedback-warning-warning-500-main
+  );
+  --component-stroke-component-stroke-warning-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-600
+  );
+  --component-text-component-text-dark: var(--colors-nutral-white-whitemain);
+  --component-text-component-text-dark-hover: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-50
+  );
+  --component-text-component-text-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --component-text-component-text-gray: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-100
+  );
+  --component-text-component-text-gray-hover: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-100
+  );
+  --component-text-component-text-light: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-25
+  );
+  --component-text-component-text-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-text-component-text-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --component-text-component-text-negative-hover: var(
+    --colors-feedback-negative-negative-400
+  );
+  --component-text-component-text-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --component-text-component-text-positive-hover: var(
+    --colors-feedback-positive-positive-400
+  );
+  --component-text-component-text-primary: var(
+    --colors-brand-primary-primary-500-main
+  );
+  --component-text-component-text-primary-hover: var(
+    --colors-brand-primary-primary-400
+  );
+  --component-text-component-text-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --component-text-component-text-secondary-hover: var(
+    --colors-brand-secondary-secondary-400
+  );
+  --component-text-component-text-tertiary: var(
+    --colors-brand-teritary-tertiary-500-main
+  );
+  --component-text-component-text-tertiary-hover: var(
+    --colors-brand-teritary-tertiary-400
+  );
+  --component-text-component-text-warning: var(
+    --colors-feedback-warning-warning-500-main
+  );
+  --component-text-component-text-warning-hover: var(
+    --colors-feedback-warning-warning-400
+  );
+  --component-hover-component-hover-dark: var(--colors-nutral-white-whitemain);
+  --component-hover-component-hover-dark-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-700
+  );
+  --component-hover-component-hover-gray: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-900
+  );
+  --component-hover-component-hover-light: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-700
+  );
+  --component-hover-component-hover-light-fixed: var(
+    --colors-nutral-white-whitemain
+  );
+  --component-hover-component-hover-negative: var(
+    --colors-feedback-negative-negative-600
+  );
+  --component-hover-component-hover-negative-light: var(
+    --colors-feedback-negative-negative-400
+  );
+  --component-hover-component-hover-negative-soft: var(
+    --colors-feedback-negative-negative-800
+  );
+  --component-hover-component-hover-positive: var(
+    --colors-feedback-positive-positive-600
+  );
+  --component-hover-component-hover-positive-light: var(
+    --colors-feedback-positive-positive-400
+  );
+  --component-hover-component-hover-positive-soft: var(
+    --colors-feedback-positive-positive-800
+  );
+  --component-hover-component-hover-primary: var(
+    --colors-brand-primary-primary-600
+  );
+  --component-hover-component-hover-primary-light: var(
+    --colors-brand-primary-primary-400
+  );
+  --component-hover-component-hover-primary-soft: var(
+    --colors-brand-primary-primary-800
+  );
+  --component-hover-component-hover-secondary: var(
+    --colors-brand-secondary-secondary-600
+  );
+  --component-hover-component-hover-secondary-light: var(
+    --colors-brand-secondary-secondary-400
+  );
+  --component-hover-component-hover-secondary-soft: var(
+    --colors-brand-secondary-secondary-800
+  );
+  --component-hover-component-hover-tertiary: var(
+    --colors-brand-teritary-tertiary-600
+  );
+  --component-hover-component-hover-tertiary-light: var(
+    --colors-brand-teritary-tertiary-400
+  );
+  --component-hover-component-hover-tertiary-soft: var(
+    --colors-brand-teritary-tertiary-800
+  );
+  --component-hover-component-hover-warning: var(
+    --colors-feedback-warning-warning-600
+  );
+  --component-hover-component-hover-warning-light: var(
+    --colors-feedback-warning-warning-400
+  );
+  --component-hover-component-hover-warning-soft: var(
+    --colors-feedback-warning-warning-800
+  );
+  --icon-default-icon-dark: var(--colors-nutral-white-whitemain);
+  --icon-default-icon-disabled: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --icon-default-icon-gray: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-200
+  );
+  --icon-default-icon-light-fixed: var(--colors-nutral-white-whitemain);
+  --icon-default-icon-negative: var(
+    --colors-feedback-negative-negative-500-main
+  );
+  --icon-default-icon-positive: var(
+    --colors-feedback-positive-positive-500-main
+  );
+  --icon-default-icon-primary: var(--colors-brand-primary-primary-500-main);
+  --icon-default-icon-secondary: var(
+    --colors-brand-secondary-secondary-500-main
+  );
+  --icon-default-icon-tertiary: var(--colors-brand-teritary-tertiary-500-main);
+  --icon-default-icon-warning: var(--colors-feedback-warning-warning-500-main);
+  --icon-hover-icon-hover-dark: var(--colors-nutral-white-whitemain);
+  --icon-hover-icon-hover-gray: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-400
+  );
+  --icon-hover-icon-hover-negative: var(
+    --colors-feedback-negative-negative-400
+  );
+  --icon-hover-icon-hover-positive: var(
+    --colors-feedback-positive-positive-400
+  );
+  --icon-hover-icon-hover-primary: var(--colors-brand-primary-primary-400);
+  --icon-hover-icon-hover-secondary: var(
+    --colors-brand-secondary-secondary-400
+  );
+  --icon-hover-icon-hover-tertiary: var(--colors-brand-teritary-tertiary-400);
+  --icon-hover-icon-hover-warning: var(--colors-feedback-warning-warning-400);
+  --typography-body: var(--colors-nutral-white-whitemain);
+  --typography-body-light: var(--colors-nutral-white-whitemain);
+  --typography-body-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-100
+  );
+  --typography-caption: var(--colors-nutral-white-whitemain);
+  --typography-caption-light: var(--colors-nutral-white-whitemain);
+  --typography-caption-soft: var(
+    --colors-nutral-gray-strong-dark-mode-gray-strong-100
+  );
+  --typography-display: var(--colors-nutral-white-whitemain);
+  --typography-display-light: var(--colors-nutral-white-whitemain);
+  --typography-heading: var(--colors-nutral-white-whitemain);
+  --typography-heading-light: var(--colors-nutral-white-whitemain);
+  **/
+}
+/** Normalise **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--typography-typeface-change-font-here-body);
+  background-color: var(--background-fill-background-fill-surface);
+  font-size: var(--typography-size-sm);
+  overflow-x: hidden;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+section {
+  margin-block: 84px;
+}
+
+/*##* Typeface *##*/
+/* typography size */
+h1 {
+  font-size: var(--typography-size-lg-4x);
+  line-height: var(--typography-height-lg-4x);
+  font-family: var(--typography-typeface-change-font-here-heading);
+}
+h2 {
+  font-size: var(--typography-size-lg-3x);
+  line-height: var(--typography-height-lg-3x);
+  font-family: var(--typography-typeface-change-font-here-heading);
+}
+h3 {
+  font-size: var(--typography-size-lg-2x);
+  line-height: var(--typography-height-lg-2x);
+  font-family: var(--typography-typeface-change-font-here-heading);
+}
+h4 {
+  font-size: var(--typography-size-lg);
+  line-height: var(--typography-height-lg--typography-size-lg);
+  font-family: var(--typography-typeface-change-font-here-heading);
+}
+h5 {
+  font-size: var(--typography-size-md);
+  line-height: var(--typography-height-md);
+  font-family: var(--typography-typeface-change-font-here-heading);
+}
+h6 {
+  font-size: var(--typography-size-sm);
+  font-family: var(--typography-typeface-change-font-here-heading);
+  line-height: var(--typography-height-sm);
+}
+p {
+  font-size: var(--typography-size-sm);
+  line-height: var(--typography-height-sm);
+}
+p.md {
+  font-size: var(--typography-size-md);
+  line-height: var(--typography-height-md);
+}
+p.xs {
+  font-size: var(--typography-size-lg-xs);
+  line-height: var(--typography-height-xs);
+}
+/* typogtaphy weight */
+.w-light {
+  font-weight: 300;
+}
+.w-regular {
+  font-weight: 400;
+}
+.w-medium {
+  font-weight: 500;
+}
+.w-semi-bold {
+  font-weight: 600;
+}
+/* typography style */
+.underlined {
+  text-decoration: underline;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+/* typography color */
+.c-heading {
+  color: var(--typography-heading);
+}
+.c-heading-light {
+  color: var(--typography-heading-light);
+}
+.c-caption {
+  color: var(--typography-caption);
+}
+.c-caption-light {
+  color: var(--typography-caption-light);
+}
+.c-caption-soft {
+  color: var(--typography-caption-soft);
+}
+.c-body {
+  color: var(--typography-body);
+}
+.c-body-light {
+  color: var(--typography-body-light);
+}
+.c-body-soft {
+  color: var(--typography-body-soft);
+}
+.c-display {
+  color: var(--typography-display);
+}
+.c-display-light {
+  color: var(--typography-display-light);
+}
+/* background shadow */
+.bg-shadow-xsm {
+  box-shadow: var(--shadow--background--xsm);
+}
+.bg-shadow-sm {
+  box-shadow: var(--shadow--background--sm);
+}
+.bg-shadow-md {
+  box-shadow: var(--shadow--background--md);
+}
+.bg-shadow-lg {
+  box-shadow: var(--shadow--background--lg);
+}
+.bg-shadow-xlg {
+  box-shadow: var(--shadow--background--xlg);
+}
+.bg-shadow-xlg-3x {
+  box-shadow: var(--shadow--background--xlg-3x);
+}
+/* button shadow */
+.btn-shadow-xsm {
+  box-shadow: var(--shadow--button--xsm);
+}
+.btn-shadow-sm {
+  box-shadow: var(--shadow--button--sm);
+}
+.btn-shadow-md {
+  box-shadow: var(--shadow--button--md);
+}
+.btn-shadow-lg {
+  box-shadow: var(--shadow--button--lg);
+}
+.btn-shadow-xlg {
+  box-shadow: var(--shadow--button--xsm);
+}
+/* badge shadow */
+.badge-sm {
+  box-shadow: var(--shadow--badge---small-sm);
+}
+/* img properitise */
+.image-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/** Componant **/
+.section-title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.icon-box {
+  display: grid;
+  place-items: center;
+  width: fit-content;
+  padding: 12px;
+  border-radius: var(--radius-sm-4x);
+  background-color: var(--component-fill-component-fill-primary-soft);
+  color: var(--component-text-component-text-primary);
+}
+.icon-box span {
+  width: 24px;
+  height: 24px;
+}
+input {
+  all: unset;
+  padding: 14px;
+  border: var(--component-fill-component-fill-dark-soft) 1px solid;
+  border-radius: var(--radius-sm-4x);
+  background-color: var(--component-fill-component-fill-light);
+}
+.input-fuild {
+  display: grid;
+  gap: 12px;
+}
+input:focus {
+  border: var(--component-fill-component-fill-primary-soft) 1px solid;
+}
+
+.btn {
+  padding: 12px 48px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  cursor: pointer;
+  transition: 300ms;
+  height: fit-content;
+}
+.btn-primary {
+  background-color: var(--component-fill-component-fill-primary);
+  color: var(--component-text-component-text-light-fixed);
+}
+.btn-primary-outline {
+  border: var(--component-stroke-component-stroke-primary) 1px solid;
+  color: var(--component-fill-component-fill-primary);
+}
+.btn-primary:hover {
+  background-color: var(--component-hover-component-hover-primary-light);
+}
+.btn-primary-outline:hover {
+  background-color: var(--component-fill-component-fill-primary);
+  color: var(--component-text-component-text-light-fixed);
+}
+.btn-primary:active,
+.btn-primary-outline:active {
+  background-color: var(--component-hover-component-hover-primary);
+}
+
+.btn-soft {
+  border-radius: var(--radius-sm-4x);
+}
+.btn-smooth {
+  border-radius: var(--radius-infinity);
+}
+.pill {
+  padding-inline: 8px;
+  padding-block: 2px;
+  width: fit-content;
+}
+.leding {
+  padding-inline: 10px;
+  padding-block: 8px;
+  color: var(--component-text-component-text-primary);
+  background-color: var(--component-fill-component-fill-primary-soft);
+  border-radius: var(--radius-md-2x);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: fit-content;
+}
+.leding .icon,
+.leding .avatar {
+  width: 20px;
+  height: 20px;
+}
+/* 
+  --grid-desktop-colume-size: 94px;
+  --grid-desktop-colume-gap: 24px;
+  --grid-desktop-colume-number: 12;
+  --container-desktop-max-widht: 1200px;
+
+*/
+.container,
+.container-fill {
+  width: 100%;
+  padding-inline: 16px;
+  margin-inline: auto;
+}
+@media (min-width: 1440px) {
+  .container {
+    padding-inline: inset;
+    max-width: 1200px;
+  }
+  .container-fill {
+    padding-inline: 24px;
+  }
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 28px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  color: var(--typography-body);
+}
+nav a {
+  transition: 100ms;
+}
+nav .active,
+nav a:hover {
+  color: var(--component-text-component-text-primary);
+  text-decoration: underline;
+}
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero .pill {
+  background-color: var(--component-fill-component-fill-tertiary-soft);
+  color: var(--component-fill-component-fill-tertiary);
+  border-radius: var(--radius-infinity);
+}
+.hero-banner {
+  background-color: var(--component-fill-component-fill-primary-soft);
+  height: 100%;
+  width: 100%;
+  border-radius: var(--radius-md-lg-3x);
+}
+
+.chefs {
+  overflow: hidden;
+}
+
+.featured-cards,
+.chef-cards {
+  width: 7000px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.featured-card,
+.chef-card {
+  width: 282px;
+  height: 489px;
+  border-radius: var(--radius-md-2x);
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow--background--xlg);
+}
+.chef-card {
+  width: 384px;
+  height: 489px;
+}
+
+.leding .avatar {
+  border-radius: var(--radius-infinity);
+  overflow: hidden;
+}
+.featured-card .leding {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.featured-card .featured-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  background-image: linear-gradient(
+    0deg,
+    var(--component-fill-component-fill-primary) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.chef-card-centent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  width: 100%;
+  height: 40%;
+  background-image: linear-gradient(
+    0deg,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.process {
+  background: var(--component-fill-component-fill-primary);
+  padding-block: 48px;
+}
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.step {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.testimonials .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  place-items: center;
+  text-align: center;
+}
+.testimonial-banner {
+  background-color: var(--component-fill-component-fill-primary-soft);
+  height: 100%;
+  width: 100%;
+  border-radius: var(--radius-md-lg-3x);
+  height: 368px;
+}
+
+.testimonial .material-symbols-rounded {
+  font-variation-settings: "FILL" 1;
+}
+.testimonial {
+  position: relative;
+  margin-bottom: 32px;
+}
+.testimonial .quote {
+  position: absolute;
+  font-size: 32px;
+}
+.testimonial .quote-left {
+  top: -32px;
+  left: -12px;
+}
+.testimonial .quote-right {
+  bottom: -32px;
+  right: -12px;
+}
+.testemony-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.testemony-stars .icon-box {
+  background-color: var(--component-fill-component-fill-tertiary-soft);
+  color: var(--component-text-component-text-tertiary);
+  & .material-symbols-rounded {
+    font-variation-settings: "FILL" 1;
+  }
+}
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer {
+  background-color: var(--component-fill-component-fill-primary-soft);
+}
+
+.footer-top .container {
+  padding-block: 60px;
+  display: grid;
+  gap: 24px;
+}
+.footer-text {
+  margin-block: 16px;
+}
+.footer-list-title {
+  margin-block-end: 16px;
+}
+.footer-list {
+  display: grid;
+  gap: 16px;
+}
+.footer-bottom {
+  border-block-start: 1px solid var(--colors-nutral-black-black-400);
+}
+
+.footer-bottom .container {
+  padding-block: 20px;
+  display: grid;
+  justify-content: center;
+}
+
+.footer-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-----------------------------------*\
+  #Login
+\*-----------------------------------*/
+
+.form-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  place-items: center;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.form-banner {
+  height: 90vh;
+}
+
+form .logo img {
+  height: 34px;
+}
+form {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 48px;
+  margin-block: 48px;
+  gap: 18px;
+  background-color: var(--component-fill-component-fill-secondary);
+  box-shadow: var(--shadow--background--lg);
+  border-radius: var(--radius-md-2x);
+}
+.input-fuild {
+  width: 100%;
+}
+input[type="submit"] {
+  text-align: center;
+}
+.password-forgot {
+  display: flex;
+  gap: 4px;
+}
+
+.product .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.product input[type="submit"] {
+  margin-left: auto;
+}
+
+.product-banner,
+.chef-profile {
+  border-radius: var(--radius-md-lg-3x);
+  box-shadow: var(--shadow--background--md);
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+.product-centent {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.product-centent > div {
+  height: fit-content;
+  display: grid;
+  gap: 16px;
+}
+.product-centent h4 {
+  color: var(--component-fill-component-fill-primary);
+}
+.label-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.label-box > input[type="number"] {
+  padding: 12px;
+}
+
+.chef.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.chef-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+.revies .container,
+.recomanded .container {
+  display: grid;
+  gap: 12px;
+}
+
+.revies .chef-rate,
+.revies .rate {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.revies .material-symbols-rounded {
+  font-variation-settings: "FILL" 1;
+  color: var(--component-fill-component-fill-tertiary);
+}
+.revies .profile .avatar {
+  border-radius: var(--radius-infinity);
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+}
+
+.revies .leding {
+  background-color: var(--component-fill-component-fill-tertiary-soft);
+  color: var(--component-fill-component-fill-tertiary);
+}
+.revie {
+  display: grid;
+  gap: 12px;
+  padding: 28px;
+  border-radius: var(--radius-sm-4x);
+  background-color: var(--component-fill-component-fill-primary-soft);
+}
+.revie .profile {
+  display: flex;
+  gap: 4px;
+  margin-top: 28px;
+}
+.revies-centent,
+.recomanded-centent {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.dish-card {
+  display: grid;
+  gap: 16px;
+  width: 282px;
+}
+
+.dish-card .dish-banner {
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: var(--shadow--background--md);
+  & img {
+    transition: 300ms ease-out;
+  }
+}
+.dish-card .dish-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--colors-nutral-black-black-700);
+  opacity: 0;
+  transition: 300ms ease-out;
+}
+
+.dish-card .dish-banner:hover::after {
+  opacity: 0.4;
+}
+.dish-card .dish-banner:hover img {
+  scale: 1.2;
+}
+
+.dish-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer {
+  background-color: var(--component-fill-component-fill-secondary);
+  padding: 48px;
+  border-radius: var(--radius-md-lg);
+}
+.offer h1 {
+  margin-bottom: 48px;
+}
+.foodplace .container {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 3fr 9fr;
+}
+aside ul {
+  padding-left: 28px;
+  display: grid;
+  gap: 12px;
+  color: var(--component-text-component-text-dark);
+}
+aside ul:not(:last-child) {
+  padding-bottom: 28px;
+  border-bottom: var(--colors-nutral-black-black-600) 1px solid;
+}
+aside .material-symbols-rounded {
+  color: var(--component-fill-component-fill-tertiary);
+}
+.material-symbols-rounded.fill {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+main {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: start;
+}
+.pram {
+  grid-column: 1 / span 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: var(--colors-nutral-black-black-600) 1px solid;
+}
+.pagevue {
+  display: flex;
+  gap: 16px;
+}
