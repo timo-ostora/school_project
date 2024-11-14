@@ -21,23 +21,32 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header>
       <div class="container">
         <div class="logo">
           <img src="assist/images/logo.png" height="42px" alt="quette logo" />
         </div>
-        <nav>
-          <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="./foodplace.html">Food Place</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </nav>
-        <a href="./login.html" class="btn btn-shadow-md btn-primary btn-smooth">
-          Order Now
-        </a>
+        <div class="icon-box nav-toggle-btn" id="nav-toggle-btn">
+          <span class="material-symbols-rounded open"> menu </span>
+          <span class="material-symbols-rounded close"> close </span>
+        </div>
+        <div class="colaps">
+          <nav>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="./foodplace.html">Food Place</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+          <a
+            href="./login.html"
+            class="btn btn-shadow-md btn-primary btn-smooth"
+          >
+            Sign Up
+          </a>
+        </div>
       </div>
     </header>
     <!-- Hero Section -->
@@ -58,7 +67,9 @@
             <span class="material-symbols-rounded"> arrow_right_alt </span>
           </div>
         </div>
-        <div class="hero-banner"></div>
+        <div class="hero-banner">
+          <img class="image-cover" src="assist/images/offer2.jpg" alt="" />
+        </div>
       </div>
     </section>
 
@@ -67,9 +78,8 @@
       <div class="container">
         <div class="section-title">
           <h2 class="c-heading w-medium">Featured Product</h2>
-          <p class="c-body-soft md">
-            Discover popular dishes and talented chefs in your area
-          </p>
+          <div class="line"></div>
+          <a class="c-body-soft md" href="./foodplace.html">See More Product</a>
         </div>
         <div class="featured-cards">
           <div class="featured-card">
@@ -302,12 +312,36 @@
 
     <!-- Our Chefs -->
     <section class="chefs">
-      <div class="section-title">
-        <h2 class="c-heading w-medium">Chef Showcase</h2>
-        <p class="c-body-soft md">Masters of Moroccan Flavor and Craft</p>
-      </div>
       <div class="container">
+        <div class="section-title">
+          <h2 class="c-heading w-medium">Chef Showcase</h2>
+          <div class="line"></div>
+          <a class="c-body-soft md" href="./foodplace.html">See More Chefs</a>
+        </div>
         <div class="chef-cards">
+          <div class="chef-card">
+            <img
+              class="image-cover"
+              src="assist/images/Chef-Choumicha-1 1.jpg"
+              alt="product 1"
+            />
+            <div class="chef-card-centent">
+              <div class="leding">
+                <p>Fatima Zahra</p>
+                <div class="icon">
+                  <img
+                    class="image-cover"
+                    src="assist/icons/hat-chef.png"
+                    alt="chef hat"
+                  />
+                </div>
+              </div>
+              <p class="chef-bio w-semibold c-body-light">
+                Michelin-starred Moroccan chef in San Francisco, blends
+                tradition and innovation.
+              </p>
+            </div>
+          </div>
           <div class="chef-card">
             <img
               class="image-cover"
@@ -475,7 +509,7 @@
     <!-- How it Work section -->
 
     <section class="process">
-      <div class="section-title">
+      <div class="process-title">
         <h2 class="c-heading-light w-medium">
           How Does Qutte Meal Delivery Service Work?
         </h2>
@@ -532,44 +566,48 @@
 
     <!-- testemony -->
     <section class="testimonials">
-      <div class="section-title">
-        <h2 class="c-heading w-medium">Our Customer Say</h2>
-        <p class="c-body-soft md">Masters of Moroccan Flavor and Craft</p>
-      </div>
       <div class="container">
-        <div class="testimonial-banner"></div>
-        <div class="testimonial-centent">
-          <div class="testimonial">
-            <span class="material-symbols-rounded c-body-soft quote quote-left">
-              format_quote
-            </span>
-            <h4 class="c-heading w-medium">
-              As a busy professional, I often struggle to find the time to cook
-              homemade meals. Thanks to Qetter, I can enjoy delicious,
-              home-cooked dishes without the hassle. The convenience and quality
-              of the food are unmatched!
-            </h4>
-            <span
-              class="material-symbols-rounded c-body-soft quote quote-right"
-            >
-              format_quote
-            </span>
-          </div>
-          <div class="testemony-stars">
-            <div class="icon-box">
-              <span class="material-symbols-rounded"> star </span>
+        <div class="section-title">
+          <h2 class="c-heading w-medium">Our Customer Say</h2>
+          <div class="line"></div>
+        </div>
+        <div class="testemonials-container">
+          <div class="testimonial-banner"></div>
+          <div class="testimonial-centent">
+            <div class="testimonial">
+              <span
+                class="material-symbols-rounded c-body-soft quote quote-left"
+              >
+                format_quote
+              </span>
+              <h4 class="c-heading w-medium">
+                As a busy professional, I often struggle to find the time to
+                cook homemade meals. Thanks to Qetter, I can enjoy delicious,
+                home-cooked dishes without the hassle. The convenience and
+                quality of the food are unmatched!
+              </h4>
+              <span
+                class="material-symbols-rounded c-body-soft quote quote-right"
+              >
+                format_quote
+              </span>
             </div>
-            <div class="icon-box">
-              <span class="material-symbols-rounded"> star </span>
-            </div>
-            <div class="icon-box">
-              <span class="material-symbols-rounded"> star </span>
-            </div>
-            <div class="icon-box">
-              <span class="material-symbols-rounded"> star </span>
-            </div>
-            <div class="icon-box">
-              <span class="material-symbols-rounded"> star </span>
+            <div class="testemony-stars">
+              <div class="icon-box">
+                <span class="material-symbols-rounded"> star </span>
+              </div>
+              <div class="icon-box">
+                <span class="material-symbols-rounded"> star </span>
+              </div>
+              <div class="icon-box">
+                <span class="material-symbols-rounded"> star </span>
+              </div>
+              <div class="icon-box">
+                <span class="material-symbols-rounded"> star </span>
+              </div>
+              <div class="icon-box">
+                <span class="material-symbols-rounded"> star </span>
+              </div>
             </div>
           </div>
         </div>
@@ -653,5 +691,6 @@
         </div>
       </div>
     </footer>
+    <script src="assist/js/main.js"></script>
   </body>
 </html>

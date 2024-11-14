@@ -21,23 +21,32 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header>
       <div class="container">
         <div class="logo">
           <img src="assist/images/logo.png" height="42px" alt="quette logo" />
         </div>
-        <nav>
-          <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Food Place</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </nav>
-        <a href="./login.html" class="btn btn-shadow-md btn-primary btn-smooth">
-          Order Now
-        </a>
+        <div class="icon-box nav-toggle-btn" id="nav-toggle-btn">
+          <span class="material-symbols-rounded open"> menu </span>
+          <span class="material-symbols-rounded close"> close </span>
+        </div>
+        <div class="colaps">
+          <nav>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="./foodplace.html">Food Place</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+          <a
+            href="./login.html"
+            class="btn btn-shadow-md btn-primary btn-smooth"
+          >
+            Sign Up
+          </a>
+        </div>
       </div>
     </header>
     <section class="product">
